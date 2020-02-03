@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.CompanyName{
+  text-align: center;
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: 7rem;
+  color: yellow;
+  margin: 0;
+  padding: 50px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://pmimaui.com/wp-content/uploads/2018/01/GettyImages-625006074-e1515708812857-1500x609.jpg");
+  opacity: 0.8;
+  /* Set a specific height */
+  height: 722px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stop{
+  float: none;
+  display: block;
+  clear: both;
+}
