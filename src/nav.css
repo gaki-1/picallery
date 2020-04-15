@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  /* background-color: rgb(2, 184, 197); */
+  color: white;
+  font-weight: 700;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  color: white;
+}

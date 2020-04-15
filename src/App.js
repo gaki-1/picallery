@@ -1,22 +1,20 @@
 import React from 'react';
 import './App.css';
-import Picstore from './containers/Picstore'
+import Form from './Form';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Homepage from './Homepage';
+import Nav from './Nav';
 
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <div className="parallax">
-          <h1 className="animated jackInTheBox delay-0.8s CompanyName"> PICALLERY </h1>
-          <h1> PICALLERY </h1>
+      <BrowserRouter>
+        <div className="App">
+          <Nav />
+          <Route path="/" exact component={Homepage} />
+          <Route path="/login" exact component={Form} />
         </div>
-        <button type="button" className="btn btn-success">click me</button>
-        <Picstore />
-
-        <div className="stop">
-          <h1> PICALLERY </h1>
-        </div>
-      </div>
+      </BrowserRouter>
     );
   }
 }

@@ -2,6 +2,31 @@
   text-align: center;
 }
 
+.App ul
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.App a:hover{
+  color: orange;
+}
+
+.App li
+{
+  display: inline-block;
+  margin: 20px;
+
+}
+
+.App a{
+  text-decoration: none;
+  color: black;
+}
+
 .CompanyName{
   text-align: center;
   font-family: 'Ma Shan Zheng', cursive;
